@@ -1,0 +1,21 @@
+[project]
+name = "sidelines-lineup"
+version = "0.1.0"
+description = "A Companion app for the mobile game 'Sidelines Football Manager' created by EJay."
+authors = [ 
+    {name = "Pierre Olivier", email = "polivier.dev@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "pandas>=2.2.2",
+    "matplotlib>=3.4.2",
+    "seaborn>=0.11.1",
+]
+
+[project.scripts]
+sidelines-lineup = "sidelines_lineup:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
