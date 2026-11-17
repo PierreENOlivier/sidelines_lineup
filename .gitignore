@@ -1,10 +1,150 @@
-# Python-generated files
+# ==========================================
+# PYTHON
+# ==========================================
+
+# Bytecode and cache
 __pycache__/
-*.py[oc]
+*.py[cod]
+*$py.class
+.python-version
+
+# Distribution / packaging
 build/
 dist/
+*.egg-info/
+.eggs/
 wheels/
-*.egg-info
+pip-wheel-metadata/
 
-# Virtual environments
-.venv
+# Testing and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.cache/
+hypothesis/
+coverage.xml
+
+# Type checking and linting
+.mypy_cache/
+.pyright/
+.ruff_cache/
+.dmypy.json
+.pyre/
+
+# ==========================================
+# UV / VIRTUAL ENVIRONMENTS
+# ==========================================
+
+.venv/
+venv/
+ENV/
+env/
+virtualenv/
+
+# UV cache (usually outside the project)
+# .uv/
+
+# ==========================================
+# JUPYTER
+# ==========================================
+
+.ipynb_checkpoints/
+
+# ==========================================
+# IDE / EDITORS
+# ==========================================
+
+# VS Code / Cursor
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# JetBrains
+.idea/
+*.iml
+
+# Vim / Emacs
+*.swp
+*.swo
+*~
+.#*
+
+# ==========================================
+# AI CODING AGENTS
+# ==========================================
+
+# Claude Code - local settings and temporary data
+.claude/settings.local.json
+.claude/*.local.md
+.claude/projects/
+.claude/worktrees/
+
+# Cursor local state
+.cursorignore
+.cursorindexingignore
+
+# OpenAI Codex local state
+.codex/
+.agents/
+
+# GitHub Copilot local state
+# Keep .github/copilot-instructions.md tracked
+
+# Aider
+.aider*
+!.aider.conf.yml
+!.aiderignore
+
+# Generic agent scratch files
+.agent-cache/
+.agent-tmp/
+.agent-work/
+.ai-cache/
+
+# ==========================================
+# SECRETS / ENVIRONMENT
+# ==========================================
+
+.env
+.env.*
+!.env.example
+!.env.template
+
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+
+# ==========================================
+# LOCAL DATA / TEMPORARY FILES
+# ==========================================
+
+data/raw/
+data/processed/
+tmp/
+temp/
+logs/
+*.log
+
+# ==========================================
+# OS
+# ==========================================
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==========================================
+# LOCAL DATABASES
+# ==========================================
+
+*.sqlite
+*.sqlite3
+*.db
